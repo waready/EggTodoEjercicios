@@ -4,14 +4,16 @@
 
 Algoritmo sin_titulo
 	definir limite,total Como Entero
-	limite = 100  // limite que sea 100
+	limite = 200  // limite que sea 100
 
 	total = 0
+	// 20 -60 - 100 -101
+	
 	Mientras  total <= limite Hacer
 		Escribir "ingrese numeros a sumar"
-		leer num
-		total = total + num
-
+		leer num //  20 -40 -40 -1
+		total = total + num // 20-  60 - 100 -101
+		Escribir "total es " total
 	Fin Mientras
 
 	
